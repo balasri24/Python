@@ -18,8 +18,11 @@ if os.path.exists("projects"):
 else:
  print("folder does not exists")
 # oka file ni remove cheyyadaniki use chestharu 
-os.remove("remove.py")
-
-
-
+# os.remove("remove.py") #
+bala=input("enter any file name:")
+os.remove(bala)
+if os.path.exists("tharun.py"):
+ print("file exists")
+else:
+ print("file does not exists")
 
