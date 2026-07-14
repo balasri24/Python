@@ -17,5 +17,9 @@ if os.path.exists("projects"):
  print("folder already exits")
 else:
  print("folder does not exists")
+# oka file ni remove cheyyadaniki use chestharu 
+os.remove("remove.py")
+
+
 
 
